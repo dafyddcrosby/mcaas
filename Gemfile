@@ -4,7 +4,6 @@ gem 'sinatra'
 gem 'marky_markov'
 
 group :development, optional: true do
-  gem 'dc-rubocop'
-  gem 'rubocop'
+  gem 'dc-devtools'
 end
 
