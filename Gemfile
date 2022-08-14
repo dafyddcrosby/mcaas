@@ -1,9 +1,8 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'sinatra'
-gem 'marky_markov'
+gem "marky_markov"
+gem "sinatra"
 
 group :development, optional: true do
-  gem 'dc-devtools'
+  gem "dc-devtools", "~> 0.1"
 end
-
