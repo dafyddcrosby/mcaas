@@ -3,11 +3,11 @@ GEM
   specs:
     ast (2.4.2)
     coderay (1.1.3)
-    dc-devtools (0.1.202208141535)
-      dc-guard (~> 0.0)
-      dc-minitest (~> 0.0)
-      dc-rake (~> 0.0)
-      dc-rubocop (~> 0.0)
+    dc-devtools (0.3.202208142232)
+      dc-guard (~> 0.0.1)
+      dc-minitest (~> 0.0.1)
+      dc-rake (~> 0.0.1)
+      dc-rubocop (~> 0.0.4)
     dc-guard (0.0.1)
       guard (~> 2.18)
       guard-rake (~> 1.0)
@@ -97,7 +97,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  dc-devtools (~> 0.1)
+  dc-devtools (~> 0.3)
   marky_markov
   sinatra
 
